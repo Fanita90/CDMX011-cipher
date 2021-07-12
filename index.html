@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <!--fuentes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&family=Space+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--Área de título-->
+  <header>
+    <h1> Contraseña segura </h1>
+    <hr class="line">
+  </header>
+
+  <!--Contenido de aplicación-->
+  <main>
+
+    <h2>Genere su contraseña a partir de una frase...</h2>
+    <!--Imágen -->
+    <img
+      src="https://us.123rf.com/450wm/sibgat/sibgat1506/sibgat150600001/40897627-concepto-de-seguridad-inform%C3%A1tica-dise%C3%B1o-plano-aislado-en-el-fondo-de-color.jpg?ver=6"
+      alt="contraseña Segura">
+
+    <!--Párrafo descriptivo-->
+    <p>Las contraseñas son muy importantes para la seguridad de nuestros dispositivos y sistema.
+      Es por eso que creamos <span>Contraseña Segura</span>, una herramienta que te permite crear contraseñas
+      a partir de un desplazamiento en el abecedario,
+      por lo cual, una frase sensilla y fácil de recordar, se convertirá en tu mejor aliada.
+    </p>
+    <!--Liga del tutorial -->
+    <nav>
+      <a class="enlace" href="https://www.loom.com/share/ce820e9d03eb4be5895b6f6663ee1021">Video tutorial, da
+        click!!!</a>
+    </nav>
+
+  </main>
+
+  <!--Sección de introducción de datos del usuario-->
+  <section>
+    <!--Introducir cadena / Mostrar cadena-->
+    <div>
+      <p id="textoCaja" for="string">Escribe la frase que usarás como contraseña:</p>
+      <input type="text" name="mensaje" id="string" spellcheck="false" placeholder="Escribe tu mensaje aqui" value="">
+    </div>
+    <!--Desplazamiento/Offset-->
+    <div>
+      <p id="textoCaja2">Desplazamiento en el abecedario:</p>
+      <input type="number" id="offset" placeholder="Ingresa número">
+    </div>
+
+    <!--Botón Cifrar y Descifrar-->
+    <div>
+      <button id="cifrar">Cifrar &#128373;</button>
+      <button id="descifrar">Descifrar &#128272; </button>
+    </div>
+  </section>
+
+
+
+  <!--Pié de página-->
+  <footer>
+    <p>Creado por Estefany García en Laboratoria<sup> &reg; </sup> Mex 011 </p>
+  </footer>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

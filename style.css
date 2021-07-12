@@ -1,0 +1,230 @@
+/*Diseño de fondo*/
+body{
+    font-family: 'Space Mono', monospace;
+    background-image: linear-gradient(to left,#231f3d,#463d75);
+}
+
+/*Diseño de título principal*/
+h1{
+    color: #c5d86d;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: 5px;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+/*Diseño de línea divisória*/
+hr.line{
+    height: 5px;
+    border:none;
+    margin:none;
+    background-image: linear-gradient(to left,#6652d4,#bdd453);
+}
+
+/*Diseño de título 2*/
+h2{
+    color: #9d4edd;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    margin: 6rem,7rem;
+    transition: 5s ease-in-out;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 3px;
+   
+}
+
+h2:hover{
+    letter-spacing: 10px;
+    color: #d7263d;
+    text-align: center;
+    transition: 3s;
+}
+
+/*Diseño de imágen*/
+img{
+    margin:1rem 6rem 15rem 4rem;
+    height:300px;
+    width:300px;
+    border:8px solid #c5d86d;
+    border-radius:50%;
+    float: left;
+    transition:5s ease-in-out;
+}
+img:hover{
+    transition: 4s;
+    transform: translatey(10em);
+
+}
+
+/*Diseño de párrafo principal*/
+p{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    align-items: center;
+    margin: 2rem;
+    margin-right: 20rem;
+   /* width: 70em;*/
+    font-family: 'Space Mono', monospace;
+    color:#c5d86d;
+
+}
+span{
+    
+    color:#29dfc9;
+    font-family: 'Space Mono', monospace;
+}
+
+/*Diseño de enlace*/
+.enlace{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    color:#1b998b;
+
+}
+.enlace:active{
+    color:#d7263d
+
+}
+
+/*Diseño del área de información del usuario*/
+div{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+    margin: 2rem ;
+    margin-right: 13rem;
+
+}
+
+/*Diseño de texto que describe a la caja de texto*/
+#textoCaja{
+    color:#d7263d;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+    margin: 2rem ;
+    margin-right: 13rem;
+
+}
+/*Diseño de texto que describe desplazamiento*/
+#textoCaja2{
+    color:#d7263d;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+    margin: 2rem ;
+    margin-right: 13rem;
+
+}
+
+/*Diseño de caja de texto que recibe la cadena y muestra el cifrado y descifrado*/
+#string{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+    font-size: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    border:2px solid #9d4edd;
+    border-radius: .5em;
+    width: 30rem;
+    height: 5rem;
+    background-color:#9d4edd73;
+    margin: 1rem ;
+    margin-right: 13rem;
+
+}
+
+/*Diseño de caja de texto que recibe la cadena y muestra el cifrado y descifrado*/
+#offset{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+    font-size: 0.8rem;
+    align-items: center;
+    border:2px solid #9d4edd;
+    border-radius: .5em;
+    width: 10rem;
+    height: 2rem;
+    background-color:#9d4edd73;
+    margin: 1rem ;
+    margin-right: 13rem;
+
+}
+
+/*Diseño de botón cifrar*/
+button#cifrar{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+    font-size: 15px;
+    align-items: center;
+    margin-top:2em;
+    margin-right: 5em;
+    font-family: 'Space Mono', monospace;
+    background-color:#29dfc9;
+    color:#156e64;
+    padding:13px 40px;
+    border:none;
+    border-radius:1.5em ;
+    transition: background-color color 1s ease-in-out;
+
+}
+
+
+/*Diseño de botón descifrar*/
+button#descifrar{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+    font-size: 15px;
+    align-items: center;
+    margin-top:2em;
+    margin-right: 15em;
+    font-family: 'Space Mono', monospace;
+    background-color:#29dfc9;
+    color:#156e64;
+    padding:13px 40px;
+    border:none;
+    border-radius:1.5em ;
+    transition: background-color color 1s ease-in-out;
+
+}
+#cifrar:hover{
+    background-color:#ff0a54;
+    color:#ffffff;
+    transition: 1s ease-in-out;
+    transform: translateX(0.5em);/*boton realiza un translado*/
+    box-shadow: 0 0.5em 0.8em -0.2em #c5d86d;
+  
+  }
+#descifrar:hover{
+    background-color:#ff0a54;
+    color:#ffffff;
+    transition: 1s ease-in-out;
+    transform: translateX(0.5em);/*boton realiza un translado*/
+    box-shadow: 0 0.5em 0.8em -0.2em #c5d86d;
+  
+  }
+
+/*Diseño de pie de página*/
+  footer{
+      justify-content: left;
+      align-items: flex-end;
+      padding: none;
+      margin-bottom: none;
+
+  }
